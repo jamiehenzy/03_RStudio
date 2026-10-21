@@ -1,5 +1,5 @@
 ### Instructions and exercise.
-Read into RStudio the exer_3.R script (in data/RStudio) as an R markdown document, which has seven questions for the exercise. Above the exercises, put your comments and commands for this tutorial. Finish by performing the exercises. Don't forget to knit and save for submission!
+Read into RStudio the exer_3.R script (in `/courses/BIOL2406.xxxxxx/RStudio`) as an R markdown document, which has seven questions for the exercise. Above the exercises, put your comments and commands for this tutorial. Finish by performing the exercises. Don't forget to knit and save for submission!
 
 
 
