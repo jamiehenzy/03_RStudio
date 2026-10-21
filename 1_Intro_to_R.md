@@ -11,11 +11,21 @@ Install swirl:
 ```
 install.packages("swirl")
 ```
-and load the library:
+and load the library, with instructions to save a log of your work during (use this command before every session of swirl):
 ```
 library(swirl)
+swirl_options(swirl_logging = TRUE)
 ```
-Follow the prompts and select "R Programming" for the course. Work through the 15 lessons. Here are two ways to show your work for credit:
+Begin the session by typing:
+```
+swirl()
+```
 
-+ At the last prompt for each of the 15 lessons, screenshot the last line of output along with the message that tells you you're done and paste each one into a document. When all 15 last prompts/outputs are captured, save the document as a pdf and upload it to your assignment folder on Explorer.
-+ Use the command `sink("<file_name>")` at the beginning of the RStudio session. All output will go to the file name you supplied. For the purposes of documenting that you completed swirl, you only need to show the output and not what you entered in the script window.
+Follow the prompts and select "R Programming" for the course. Work through the 15 lessons. If you do not complete all lessons in one session, just be sure to include the "swirl_options" command above each time you load the library.
+
+When you are finished with all 15 lessons (even if you've done them in different sessions), find the data and zip it:
+```
+user_dir <- file.path(find.package("swirl"), "user_data")
+zip("swirl_logs.zip", list.files(user_dir, recursive = TRUE, full.names = TRUE)
+```
+The zipped file can be pushed to your Github account when you submit your module work.
