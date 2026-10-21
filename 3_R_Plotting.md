@@ -2,7 +2,7 @@
 
 This material is double-adapted! It is drawn from an adapted version of the STEMinist_R materials which can be found [here](https://github.com/ecalfee/STEMinist_R.git). The adapted version appeared in Serena Caplin's marine genomics course.
 
-Before starting, copy exer_1.Rmd and exer_2.Rmd from the course folder /courses/BIOL2406.xxxxxx/RStudio to your own directory that you'll be working from.
+Before starting, copy exer_1.Rmd and exer_2.Rmd from the course folder `/courses/BIOL2406.xxxxxx/RStudio` to your own directory that you'll be working from.
 
 Launch an RStudio session and open a new R markdown file to capture the questions, your code, and output. Save your session for your assignment submission.
 
